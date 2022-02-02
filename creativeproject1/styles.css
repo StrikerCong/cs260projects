@@ -1,0 +1,250 @@
+.navbar.navbar-expand-lg.navbar-light.bg-light {
+  background-color: transparent !important;
+}
+
+.happy_logo {
+  max-width: 100%;
+  height: 300px;
+}
+
+.navbar-nav {
+  color: red;
+}
+
+.nav-item {
+  color: white;
+}
+
+.home_body {
+  padding: 4em;
+  float: left;
+}
+
+.home_content h1 {
+  color: white;
+  text-align: center;
+  font-size: 6em;
+  padding-bottom: 0.5em;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.menu_button {
+  margin: auto;
+  color: black;
+  width: 40%;
+  padding: 15px;
+  height: 70px;
+  text-align: center;
+  box-sizing: border-box;
+  background-color: rgb(230, 217, 36);
+  border-radius: 50px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.menu_button:hover {
+  transform: scale(1.10);
+}
+
+.navbar-brand {
+  font-weight: bold;
+  color: black;
+}
+
+.navbar-brand:hover {
+  transform: scale(1.05);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar.navbar-expand-lg.navbar-light.bg-light.not-homepage{
+  background-image: url('food_snip.jpg') !important;
+  background-repeat: no-repeat;
+}
+
+.footer {
+  width: 100%;
+  padding-top: 5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-item {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+.footer-photo {
+  width:60px;
+  height: auto;
+  border-radius: 100%;
+  margin: 10px;
+}
+
+.footer-copyright {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+}
+
+.github_footer {
+  padding: 1em;
+  padding-top: 1em;
+}
+
+.non_homepage_title h1 {
+  text-align: center;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 5em;
+  padding-top: 0.25em;
+}
+
+.row {
+  padding-bottom: 3em;
+}
+
+.col-sm-4 {
+  padding: 2em;
+  text-align: center;
+  background-color: lightgray;
+  border: 1px solid black;
+}
+
+.menu_image {
+  max-width: 100%;
+  height: 300px;
+}
+
+.menu_title {
+  text-align: center;
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.menu_description {
+  text-align: center;
+  padding: 0.5em;
+  font-size: 1.5em;
+}
+
+.menu_ingredients {
+  text-align: center;
+  padding: 0.5em;
+}
+
+.menu_price {
+  text-align: center;
+  font-size: 2em;
+}
+
+.order_button {
+  margin: auto;
+  color: black;
+  width: 30%;
+  padding: 15px;
+  height: 70px;
+  text-align: center;
+  box-sizing: border-box;
+  background-color: rgb(230, 217, 36);
+  border-radius: 50px;
+}
+
+.order_button:hover {
+  transform: scale(1.10);
+}
+
+.footer-copyright_non_homepage {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: black;
+}
+
+.contact_box {
+  margin: 2em;
+  text-align: center;
+  justify-content: center;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: black;
+  background-color: lightgray;
+}
+
+.contact_header {
+  font-size: 3em;
+  padding: 1em;
+}
+
+.contact_email {
+  font-size: 2em;
+}
+
+.contact_instructions {
+  font-size: 2em;
+}
+
+.contact_thanking {
+  padding: 1em;
+  font-size: 2em;
+}
+
+.card_item {
+  margin: 3em;
+  justify-content: center;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: black;
+  background-color: lightgray;
+}
+
+.card_title {
+  margin-top: 1em;
+  margin-left: 1em;
+}
+
+.card_text {
+  margin-top: 1em;
+  margin-left: 2em;
+}
+
+.card_author {
+  margin-top: 1em;
+  margin-left: 1em;
+  color: red;
+}
+
+.footer-non-homepage {
+  width: 100%;
+  padding-top: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Large screens */
+@media only screen and (min-width: 1024px) {
+  
+}
+
+/* Medium-sized screens */
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
+}
+
+/* Small screens */
+@media only screen and (max-width: 767px) and (min-width: 540px) {
+  .menu_button {
+    width: 50%;
+  }
+}
+
+/* Smaller screens */
+@media only screen and (max-width: 539px) {
+  .menu_button{
+    width: 60%;
+  }
+}
