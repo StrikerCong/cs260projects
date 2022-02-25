@@ -1,1 +1,72 @@
-Hi everyone
+<!DOCTYPE html>
+<html lang="en">
+
+<!--Head-->
+<head>
+  <meta charset="utf-8" />
+  <title>Creative Project 2</title>
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+  
+  <div class = "head">
+    <h1>Crypto Currency Calculator</h1>
+    <h3>Your one-stop-shop for Crypto information</h3>
+  </div>
+
+  <div class = "body_content">
+
+    <form>
+      <label>Enter a CrytpoCurrency symbol (BTC, ETH, DOGE, etc.):</label>
+      <input id="cryptoInput" type="text"></input><br/>
+      <input id="cryptoSubmit" type="submit" value="Submit"></input>
+    </form>
+    
+    <div class="first_res">
+      <div id="coinResults"></div>
+    </div>
+
+    <form>
+      <label>Calculator (Enter USD amount you would want to buy): $</label>
+      <input id="calculateInput" type="text"></input><br/>
+      <input id="calculateSubmit" type="submit" value="Submit"></input>
+    </form>
+
+    <div class="second_res">
+      <div id="calculateResults"></div>
+    </div>
+
+    <div class = "thank_api">
+      <p>Powered by <a href='https://coinlib.io/apidocs'>Coinlib API</a></p>
+    </div>
+
+    <!-- Footer-->
+    <div class="footer-copyright">
+      <p>Copyright &copy; Britton Player 2022</p>
+    </div>
+    
+    <div class = "extra-space">
+      
+    </div>
+
+  </div>
+
+  <div class="navbar fixed-bottom navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="https://github.com/StrikerCong/cs260projects/tree/main/creativeproject2">Github Repo Link</a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js" integrity="sha256-4iQZ6BVL4qNKlQ27TExEhBN1HFPvAvAMbFavKKosSWQ=" crossorigin="anonymous"></script>
+  <script text="type/javascript" src="/script.js"></script>
+
+</body>
+
+</html>

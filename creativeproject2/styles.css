@@ -1,0 +1,180 @@
+/* CSS File */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+body {
+  background-color: #faeae4;
+  background-image: url(stock_background_2.jpg);
+  background-position: center;
+  background-repeat: repeat;
+  
+}
+
+label {
+  padding-top: 1em;
+  color: white;
+}
+
+.head {
+  background-position: center;
+  text-align: center;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  color: white;
+  padding: 2em;
+}
+
+.head h1 {
+  font-size: 4em;
+  padding: 0.25em;
+}
+
+.body_content {
+  width: 100%;
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.body_content label {
+  font-size: 1.5em;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+#cryptoInput {
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+#cryptoSubmit {
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  border-radius: 1em;
+  margin: 1em;
+  padding: 0.5em;
+}
+
+#cryptoSubmit:hover {
+  transform:scale(1.15);
+  background-color: lightgray;
+}
+
+.first_res {
+  display: inline-block;
+}
+
+#coinResults {
+  padding: 1em;
+  border-radius: 5em;
+  margin-top: 1em;
+  background-color: rgb(18, 209, 243);
+}
+
+#coinResults h2 {
+  padding-bottom: 0.5em;
+  color: white;
+  font-weight: bolder;
+}
+
+#coinResults p {
+  color: black;
+}
+
+#calculateInput {
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+#calculateSubmit {
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  border-radius: 1em;
+  margin: 1em;
+  padding: 0.5em;
+}
+
+#calculateSubmit:hover {
+  transform:scale(1.15);
+  background-color: lightgray;
+}
+
+.second_res {
+  display: inline-block;
+}
+
+#calculateResults {
+  padding: 1em;
+  border-radius: 5em;
+  margin-top: 1em;
+  background-color: rgb(18, 209, 243);
+}
+
+#calculateResults h2 {
+  padding-bottom: 0.5em;
+  color: white;
+  font-weight: bolder;
+}
+
+#calculateResults p {
+  color: black;
+}
+
+.thank_api {
+  padding-top: 3em;
+  color: white;
+}
+
+.footer-copyright {
+  color: white;
+}
+
+.extra-space {
+  padding: 2em;
+}
+
+.navbar.fixed-bottom.navbar-dark.bg-dark {
+  background-color: black !important;
+  color: black;
+  opacity: 0.8;
+}
+
+.navbar-brand {
+  color: black;
+}
+
+.container-fluid {
+  color: black;
+}
+
+
+/* Mobile Styles */
+@media only screen and (max-width: 960px) {
+  .head {
+    font-size: 1em;
+
+  }
+}
+
+/* Med Desktop Styles */
+@media only screen and (min-width: 961px) {
+  .head {
+    padding-top: 4em;
+    padding-bottom: 4em;
+    padding-right: 5em;
+    padding-left: 5em;
+  }
+}
+
+/* Big Desktop Styles */
+@media only screen and (min-width: 1461px) {
+  .head {
+    padding-top: 4em;
+    padding-bottom: 4em;
+    padding-right: 10em;
+    padding-left: 10em;
+  }
+}
