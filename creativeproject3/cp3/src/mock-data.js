@@ -1,0 +1,48 @@
+let mock = [{
+  id: 1,
+  symbol: "BTC",
+  name: "BitCoin",
+  low_24h: "39958.37",
+  high_24h: "41475.03",
+  price: "41414.49",
+  rank: "1",
+  market_cap: '787333364218.54',
+  volume: "346494607050.02",
+},
+{
+  id: 2,
+  symbol: "ETH",
+  name: "Ethereum",
+  low_24h: "3047.02",
+  high_24h: "3141.81",
+  price: "3137.90",
+  rank: "2",
+  market_cap: '377705585097.02',
+  volume: "7350194860.7",
+},
+{
+  id: 3,
+  symbol: "DOGE",
+  name: "DogeCoin",
+  low_24h: "0.14",
+  high_24h: "0.14",
+  price: "0.14",
+  rank: "8",
+  market_cap: '17544052878.61',
+  volume: "96505923.36",
+},
+{
+  id: 4,
+  symbol: "LTC",
+  name: "Litecoin",
+  low_24h: "104.75",
+  high_24h: "111.58",
+  price: "111.43",
+  rank: "11",
+  market_cap: '7807534853.43',
+  volume: "105017268.05",
+},
+
+]
+
+export default mock;

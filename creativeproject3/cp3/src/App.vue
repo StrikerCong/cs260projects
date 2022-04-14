@@ -7,18 +7,14 @@
       </div>
     </router-link>
     <div class="title">
-      <h1>CryptoCurrency Calculator!</h1>
+      <h1>CryptoCurrency Information!</h1>
     </div>
   </div>
   <div class="content">
     <router-view />
   </div>
   <div class="footer">
-    <router-link to="/">Home</router-link>
-    <br>
-    <router-link to="/admin">Admin</router-link>
-    <br>
-    <a href="https://github.com/BYUCS260/museum-StrikerCong">Github Repo</a>
+    <a href="https://github.com/StrikerCong/cs260projects/tree/main/creativeproject3">Github Repo</a>
   </div>
 </div>
 </template>
@@ -42,8 +38,8 @@ body {
 .header {
   display: flex;
   padding: 10px 100px 0px 100px;
-  background-color: #1a7af7;
-  color: black;
+  background-color: #000408;
+  color: white;
 }
 
 .title {
@@ -58,19 +54,19 @@ body {
 
 .content {
   padding: 20px 100px;
-  min-height: 500px;
+  min-height: 550px;
 }
 
 /* Footer */
 .footer {
   height: 50px;
   padding: 20px 100px 0px 100px;
-  background: #e3e3e3;
+  background: black;
   font-size: 12px;
 }
 
 .footer a {
-  color: #000;
+  color: white;
 }
 
 h1 {
